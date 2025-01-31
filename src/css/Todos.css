@@ -1,0 +1,50 @@
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 3px solid #7a9be1;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.todo-text {
+  flex-grow: 1;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-icon {
+  width: 24px;
+  height: 24px;
+  color: #ff0000;
+}
+.update-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.update-icon {
+  width: 24px;
+  height: 24px;
+  color: #0000ff;
+}
+.todos-container{
+  margin: 60px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
